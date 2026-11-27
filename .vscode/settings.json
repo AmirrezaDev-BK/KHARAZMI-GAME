@@ -1,0 +1,39 @@
+{
+    "editor.tokenColorCustomizations": {
+        "comments": "#2c85b2",
+        "keywords": "#26c8d1",
+        "numbers": "#cf6a2a",
+        "functions": "#03feb3",
+        "textMateRules": [
+            {"scope" : "variable",
+            "settings": {
+                "foreground": "#da00fc",
+                "fontStyle": "bold underline"
+            }
+        },
+        {"scope":"string",
+        "settings": {
+            "foreground": "#e01aa5",
+            "fontStyle": "italic bold"
+        }},
+        {
+            "scope": "punctuation.definition.string",
+            "settings": {
+                "foreground": "#ffffff"
+            }
+        },
+        ]
+    },
+    "extensions.autoUpdate": "off",
+    "workbench.colorCustomizations": {
+        "terminal.background": "#c0c0c0",
+        "terminal.foreground": "#1e0652"
+    },
+    "workbench.colorTheme": "Dark Modern",
+    "workbench.editor.empty.hint": "hidden",
+    "workbench.editorAssociations": {
+        "*.copilotmd": "vscode.markdown.preview.editor",
+        "*.exe": "default"
+    },
+    "python-envs.defaultEnvManager": "ms-python.python:system"
+}
